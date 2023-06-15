@@ -1,0 +1,20 @@
+using System;
+
+namespace integer_operation
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int number1 = int.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine());
+            int number3 = int.Parse(Console.ReadLine());
+            int number4 = int.Parse(Console.ReadLine());
+
+            int sum1 = number1 + number2;
+            int sum2 = sum1 / number3;
+            int sum3 = sum2 * number4;
+            Console.WriteLine(sum3);
+        }
+    }
+}
